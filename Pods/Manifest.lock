@@ -1,0 +1,54 @@
+PODS:
+  - Bolts (1.1.4)
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - Facebook-iOS-SDK (4.0.1):
+    - Bolts (~> 1.0)
+    - Facebook-iOS-SDK/CoreKit (= 4.0.1)
+    - Facebook-iOS-SDK/LoginKit (= 4.0.1)
+    - Facebook-iOS-SDK/ShareKit (= 4.0.1)
+  - Facebook-iOS-SDK/CoreKit (4.0.1):
+    - Bolts (~> 1.0)
+    - Facebook-iOS-SDK/CoreKit/no-arc (= 4.0.1)
+  - Facebook-iOS-SDK/CoreKit/no-arc (4.0.1):
+    - Bolts (~> 1.0)
+  - Facebook-iOS-SDK/LoginKit (4.0.1):
+    - Bolts (~> 1.0)
+    - Facebook-iOS-SDK/CoreKit
+  - Facebook-iOS-SDK/ShareKit (4.0.1):
+    - Bolts (~> 1.0)
+    - Facebook-iOS-SDK/CoreKit
+  - KZAsserts (1.0)
+  - KZBootstrap (0.5.3):
+    - KZBootstrap/Core (= 0.5.3)
+  - KZBootstrap/Core (0.5.3):
+    - KZAsserts (~> 1.0)
+  - KZBootstrap/Debug (0.5.3):
+    - KZAsserts (~> 1.0)
+    - RSSwizzle
+  - KZBootstrap/Logging (0.5.3):
+    - CocoaLumberjack (~> 2.0.0-beta4)
+  - RSSwizzle (0.1.0)
+
+DEPENDENCIES:
+  - Facebook-iOS-SDK
+  - KZAsserts
+  - KZBootstrap
+  - KZBootstrap/Debug
+  - KZBootstrap/Logging
+
+SPEC CHECKSUMS:
+  Bolts: f8e2f94edbf9fec7bb8de5ecaaa3aa6b7de6f64e
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  Facebook-iOS-SDK: 6d05532c97e9c542f8d87f94b7f6ee217493d00b
+  KZAsserts: 6e613b569a33582dc94cf7a1f34a2c6d870982a7
+  KZBootstrap: 11f5f8f34d0d0d5d1163447eb26eff1ac4715761
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+
+COCOAPODS: 0.36.0
